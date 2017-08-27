@@ -19,7 +19,7 @@ from models import User
 
 def index(request):
 	print "index"
-    return render(request, 'userDashboard/index.html')
+	return render(request, 'userDashboard/index.html')
 
 # def dashboard(request):
 #     #user must be logged in and must be an admin to see page

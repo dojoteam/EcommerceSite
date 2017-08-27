@@ -19,4 +19,4 @@ import math
 
 def index(request):
 	print "index"
-    return render(request, 'userDashboard/index.html')
+	return render(request, 'userDashboard/index.html')

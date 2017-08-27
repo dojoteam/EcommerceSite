@@ -18,7 +18,7 @@ import math
 # Create your views here.
 
 def index(request):
-    return render(request, 'userDashboard/index.html')
+	return render(request, 'userDashboard/index.html')
 
 def show(request):
-    return render(request, 'products_app/show.html')
+	return render(request, 'products_app/show.html')
