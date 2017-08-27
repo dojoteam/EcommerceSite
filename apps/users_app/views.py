@@ -10,7 +10,7 @@ from time import gmtime, strftime
 import re
 import bcrypt
 import math
-from .models import User
+from models import User
 
 
 
@@ -18,6 +18,7 @@ from .models import User
 # Create your views here.
 
 def index(request):
+	print "index"
     return render(request, 'userDashboard/index.html')
 
 # def dashboard(request):
