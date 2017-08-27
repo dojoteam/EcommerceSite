@@ -117,7 +117,7 @@
 
 #goSignin{
   background-position: 00px -50px;
-  background: url('https://github.com/loyti/images/blob/master/tmanSignIn2.jpg?raw=true');
+  background: url('https://github.com/dojoteam/EcommerceSite/blob/master/apps/users_app/static/userDashboard/images/box.png?raw=true');
   margin: 10px;
   min-height: 590px;
   padding: 10px;
@@ -141,7 +141,7 @@
   padding-bottom: 150px;
   font-size: large;
   border-radius: 5px;
-  background: url('https://github.com/loyti/images/blob/master/tmanretailtherap2.jpg?raw=true') no-repeat;
+  background: url('https://github.com/dojoteam/EcommerceSite/blob/master/apps/users_app/static/userDashboard/images/forfpo.jpg?raw=true') no-repeat;
   background-size: cover;
   letter-spacing: .1em;
   color: #eee;
@@ -160,7 +160,7 @@
   padding-bottom: 150px;
   font-size: large;
   border-radius: 5px;
-  background: url('https://github.com/loyti/images/blob/master/tmanhiphop2.jpg?raw=true') no-repeat;
+  background: url('https://github.com/dojoteam/EcommerceSite/blob/master/apps/users_app/static/userDashboard/images/forfpo.jpg?raw=true') no-repeat;
   background-size: cover;
   letter-spacing: .05em;
   color: #eee;
@@ -179,7 +179,7 @@
   padding-bottom: 150px;
   font-size: large;
   border-radius: 5px;
-  background: url('https://github.com/loyti/images/blob/master/tmankidstrong2.jpg?raw=true') no-repeat;
+  background: url('https://github.com/dojoteam/EcommerceSite/blob/master/apps/users_app/static/userDashboard/images/box.png?raw=true') no-repeat;
   background-size: cover;
   letter-spacing: .1em;
   color: #eee;
