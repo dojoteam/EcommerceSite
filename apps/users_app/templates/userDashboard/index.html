@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'userDashboard/style.css' %}">
+    <link rel="stylesheet" href="{% static 'userDashboard/bootst{%rap.css' %}">
+    <link rel="stylesheet" href="{% static 'userDashboard/bootstrap-theme.css' %}">
+    <link rel="stylesheet" href="{% static 'userDashboard/jquery.slim.js' %}">
+    <link rel="stylesheet" href="{% static 'userDashboard/tether.min.js' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+        }
+    </style>
+</head>
+<body>
+  <div class="containder">
+    <div class="mm-page">
+        <div class="header"></div>
+        <div class="header-spacer"></div>
+        <div class="page"></div>
+    </div>
+    <div></div>
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <h3>SHOPSTYLE</h3>
+          <!-- <img id="logo" class="icon-bar" src=""> -->
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <form class="nav navbar-nav navbar-right">
+                <input type="text" value="SEARCH">
+                <input type="submit" value="GO">
+            </form>
+        </div>
+    </div>
+    <div>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="#">NEW ARRIVALS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">MENS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">WOMENS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">KIDS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">ACCESSORIES</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">SALE</a></li>
+      </ul>
+    </div>
+
+    <div id="hero-background">
+      <div id="hero-image">
+        <img src="/dashboard/forfpo.jpg">
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <row-fluid>
+        <div id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li class="item1 active"></li>
+            <li class="item2"></li>
+            <li class="item3"></li>
+            <li class="item4"></li>
+          </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div id="hotPress">
+              <div class="carousel-caption">
+                <h2>IMAGE1</h2>
+                <p>loren ipsum text here</p>
+                <a class="btn btn-primary" href='/products'>View test</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div id="classics">
+              <div class="carousel-caption">
+                <h2>IMAGE2</h2>
+                <p>loren ipsum text here</p>
+                <a class="btn btn-primary" href='/products'>View test</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div id="kidsCorner">
+              <div class="carousel-caption">
+                <h2>IMAGE3/h2>
+                <p>loren ipsum text here</p>
+                <a class="btn btn-primary" href='/products'>View test</a>
+              </div>
+            </div>
+          </div>
+        </div>
+            <a class="left carousel-control" href="#myCarousel" role="button">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+          </div>
+        </div>
+        <script>
+      $(document).ready(function(){
+          // Activate Carousel
+          $("#myCarousel").carousel();
+      
+          // Enable Carousel Indicators
+          $(".item1").click(function(){
+              $("#myCarousel").carousel(0);
+          });
+          $(".item2").click(function(){
+              $("#myCarousel").carousel(1);
+          });
+          $(".item3").click(function(){
+              $("#myCarousel").carousel(2);
+          });
+          $(".item4").click(function(){
+              $("#myCarousel").carousel(3);
+          });
+      
+          // Enable Carousel Controls
+          $(".left").click(function(){
+              $("#myCarousel").carousel("prev");
+          });
+          $(".right").click(function(){
+              $("#myCarousel").carousel("next");
+          });
+      });
+    </script>
+  </div>
+</body>
+</html>
