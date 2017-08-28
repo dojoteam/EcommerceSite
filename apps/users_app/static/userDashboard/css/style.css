@@ -1,0 +1,109 @@
+.navbar-nav a { 
+  display: block;
+}
+#myCarousel {
+  min-height: 650px;
+  /* border-radius: 10px; */
+  margin-bottom: 30px;
+}
+.carousel-inner {
+  min-height: 650px;
+  /* border-radius: 10px; */
+}
+
+.messages {
+  color: rgba(255,0,0,1)
+}
+
+#logo, #logo>img {
+  max-width: 50px;
+  vertical-align: center;
+}
+
+
+#womenPress {
+  /* margin: 10px; */
+  min-height: 650px;
+  /* padding: 10px;
+  padding-bottom: 150px; */
+  font-size: large;
+  border-radius: 5px;
+  background: url('../images/HMPG_02.jpg') no-repeat;
+  background-size: cover;
+  letter-spacing: .1em;
+  color: #eee;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+}
+/* #womenPress>p {
+  background: rgba(0,0,0,.5);
+  border-radius: 5px;
+  padding: 10px;
+} */
+
+#menPress {
+  /* margin: 10px; */
+  min-height: 650px;
+  /* padding: 10px;
+  padding-bottom: 150px; */
+  font-size: large;
+  border-radius: 5px;
+  background: url('../images/HMPG_03.jpg') no-repeat;
+  /* background: url('https://github.com/dojoteam/EcommerceSite/blob/master/apps/users_app/static/userDashboard/images/forfpo.jpg?raw=true') no-repeat; */
+  background-size: cover;
+  letter-spacing: .05em;
+  color: #eee;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+}
+/* #menPress>p {
+  background: rgba(0,0,0,.25);
+  border-radius: 5px;
+  padding: 10px;
+} */
+#kidsPress {
+  /* margin: 10px; */
+  min-height: 650px;
+  /* padding: 10px;
+  padding-bottom: 150px; */
+  font-size: large;
+  border-radius: 5px;
+  background: url('../images/HMPG_04.jpg') no-repeat;
+  background-size: cover;
+  letter-spacing: .1em;
+  color: #eee;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+}
+#accessPress {
+  /* margin: 10px; */
+  min-height: 650px;
+  /* padding: 10px;
+  padding-bottom: 150px; */
+  font-size: large;
+  border-radius: 5px;
+  background: url('../images/HMPG_02.jpg') no-repeat;
+  background-size: cover;
+  letter-spacing: .1em;
+  color: #eee;
+  text-shadow: -1px -1px 1px #111, 2px 2px 1px #363636;
+}
+
+/* #accessPress>p {
+  background: rgba(0,0,0,.25);
+  border-radius: 5px;
+  padding: 10px;
+} */
+
+.hero_image{
+  background-image: url('../images/box.png');
+  background-position: center center;
+  background-size: cover;
+  height:900px;
+  margin-bottom: 30px;
+}
+h1{
+  size: 90em;
+}
+
+#services{
+  text-align: center;
+  margin-bottom: 30px;
+}
